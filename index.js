@@ -27,8 +27,8 @@ async function connect() {
 updatePage();
 
 async function fund() {
-    //const ethAmount = document.getElementById("ethAmount").value;
-    const ethAmount = "0.011";
+    const ethAmount = document.getElementById("ethAmount").value;
+    //const ethAmount = "0.011";
     console.log(`Funding with ${ethAmount}`);
 
     if (typeof window.ethereum !== "undefined") {
