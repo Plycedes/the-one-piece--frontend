@@ -15,15 +15,15 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-body{
-    background-image: url(bg2.jpg);   
+body {
+    background-image: url(bg2.jpg);
 }
 
 .logo {
     font-size: 45px;
     margin: 0;
-    color: #3112da;
-    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 110, 255);
+    font-family: "Verdana";
     font-weight: bolder;
 }
 
@@ -31,8 +31,6 @@ body{
     height: 100px;
     width: 170px;
 }
-
-
 
 .nav-button {
     background-color: #007bff;
@@ -85,7 +83,7 @@ body{
     margin-bottom: 100px;
 }
 
-.table_content{
+.table_content {
     margin-left: 180px;
     margin-right: 180px;
     text-align: center;
@@ -95,8 +93,7 @@ body{
     color: black;
 }
 
-.value
-{
+.value {
     margin-left: 180px;
     margin-right: 180px;
     text-align: center;
@@ -105,11 +102,10 @@ body{
     color: black;
 }
 
-#recent-winner
-{
-    margin-left: 130px;
+#recent-winner {
+    margin-left: 80px;
     text-align: center;
     text-decoration: solid;
     font-size: 18px;
-    color: black; 
+    color: black;
 }
