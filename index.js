@@ -72,6 +72,7 @@ async function updatePage() {
     const playerCount = await contract.getNumOfPlayers();
 
     balanceText.innerHTML = ethers.utils.formatEther(balance);
-    recentWinnerText.innerHTML = recentWinner;
+    var recent = recentWinner.substring(0, 7);
+    recentWinnerText.innerHTML = recent;
     playerCountText.innerHTML = await playerCount;
 }
