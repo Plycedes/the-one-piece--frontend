@@ -1,23 +1,45 @@
 .navbar {
-    background-color: #333;
+    border-style: solid;
+    border-radius: 20px;
+    /* background-color: #333; */
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding-right: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+body{
+    background-image: url(bg2.jpg);   
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 45px;
     margin: 0;
+    color: #3112da;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
+
+#logo_image {
+    height: 100px;
+    width: 170px;
+}
+
+
 
 .nav-button {
     background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
@@ -34,21 +56,60 @@
 }
 
 #ethAmount {
-    width: 300px;
+    width: 650px;
+    border-radius: 30px;
+    height: 40px;
+    margin: 100px 100px 10px 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
 
 #fund-button {
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 5px 5px;
-    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
     cursor: pointer;
+    height: 30px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
+    margin-left: 440px;
+    margin-bottom: 100px;
 }
 
-.info-list {
-    list-style-type: none;
+.table_content{
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+
+.value
+{
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 18px;
+    color: black;
+}
+
+#recent-winner
+{
+    margin-left: 130px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 18px;
+    color: black; 
 }

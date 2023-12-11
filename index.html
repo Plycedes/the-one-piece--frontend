@@ -7,31 +7,62 @@
         <title>One Piece</title>
     </head>
     <body>
+        <div>
         <script src="./index.js" type="module"></script>
 
         <nav class="navbar">
+            <img id="logo_image" src="logo_image.png" alt="Image not found">
             <h1 class="logo">The One Piece</h1>
             <button id="connect-button" class="nav-button">Connect</button>
         </nav>
         <div class="fund-section">
-            <input id="ethAmount" placeholder="ETH Amount" />
-            <button id="fund-button">Enter the race to the One Piece</button>
+            <input id="ethAmount" placeholder="ETH Amount..." />
+            <br>
+            <button id="fund-button">Enter the race</button>
         </div>
         <div class="info-section">
-            <ul class="info-list">
-                <li>
-                    <label>No of players:</label>
-                    <label id="player-count"></label>
-                </li>
-                <li>
-                    <label>Total balance:</label>
-                    <label id="balance"></label>
-                </li>
-                <li>
-                    <label>Joyboy:</label>
-                    <label id="recent-winner"></label>
-                </li>
-            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <label class="table_content">No of players:</label>
+                        </th>
+                        <th>
+                            <label class="table_content">Total balance:</label>
+                        </th>
+                        <th>
+                            <label class="table_content">Joyboy:</label>
+                        </th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label class="value" id="player-count"></label>
+                            </td>
+                            <td>
+                                <label class="value" id="balance"></label>
+                            </td>
+                            <td>
+                                <label id="recent-winner"></label>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <!-- <ul class="info-list">
+                        <li>
+                            <label>No of players:</label>
+                            <label id="player-count"></label>
+                        </li>
+                        <li>
+                            <label>Total balance:</label>
+                            <label id="balance"></label>
+                        </li>
+                        <li>
+                            <label>Joyboy:</label>
+                            <label id="recent-winner"></label>
+                        </li>
+                    </ul> -->
+                </thead>
+            </table>
         </div>
     </body>
 </html>
