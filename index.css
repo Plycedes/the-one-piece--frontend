@@ -90,7 +90,7 @@ body {
     text-decoration: solid;
     font-size: 18px;
     font-weight: bolder;
-    color: #007bff;
+    color: #1c4faf;
 }
 
 .value {
@@ -99,15 +99,16 @@ body {
     text-align: center;
     text-decoration: solid;
     font-size: 18px;
-    color: #007bff;
+    color: #1c4faf;
 }
 
 #recent-winner {
-    margin-left: 80px;
+    margin-left: 180px;
+    margin-right: 180px;
     text-align: center;
     text-decoration: solid;
     font-size: 18px;
-    color: #007bff;
+    color: #1c4faf;
 }
 
 .info-section {
